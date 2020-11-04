@@ -1,0 +1,11 @@
+public class MyClass {
+    static int sumOfDigits(int n){
+        if(n==1){
+            return 1;
+        }
+        else return n+sumOfDigits(n-1);
+    }
+    public static void main(String args[]) {
+        System.out.println("SOD upto n is : " + sumOfDigits(7));
+        }
+    }
